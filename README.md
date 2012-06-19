@@ -148,7 +148,7 @@ Di seguito s’illustreranno le scelte progettuali. Si farà ampio uso di diagra
 
 ### 4.1 Diagramma delle classi in UML
 
-![Diagramma UML delle classi](tree/master/images/umlclassdiagram.png)
+![Diagramma UML delle classi](http://github.com/vdenotaris/Java-RMI-Tic-Tac-Toe/blob/master/images/umlclassdiagram.png)
 
 L’immagine mostra come nel package ``api`` siano presenti le interfacce remote per gli oggetti distribuiti (``Player``, ``Game`` e ``TicTacToeServer``) più una classe che realizza un’eccezione (``GameJoiningException``) ed un enum (``Event``) che contiene etichette utili per identificare lo stato della partita.
 
@@ -174,7 +174,7 @@ A conclusione del documento si presentano degli screenshot per illustrare in man
 
 Questa schermata realizza il requisito funzionale *F1*.
 
-![Game Init](tree/master/images/gameinit.png)
+![Game Init](http://github.com/vdenotaris/Java-RMI-Tic-Tac-Toe/blob/master/images/gameinit.png)
 
 E' la schermata iniziale che si presenta al giocatore. Consente di scegliere un nickname e di collegarsi al server. Nel caso in cui il nickname scelto sia già registrato sul server, si visualizzerà un messaggio d’errore.
 
@@ -182,7 +182,7 @@ E' la schermata iniziale che si presenta al giocatore. Consente di scegliere un 
 
 Questa schermata realizza i requisiti funzionali *F2*, *F3* ed *F4*.
 
-![Game Init](tree/master/images/gameroom.png)
+![Game Room](http://github.com/vdenotaris/Java-RMI-Tic-Tac-Toe/blob/master/images/gameroom.png)
 
 Vi si accede dopo aver inserito un nickname valido ed essersi collegati al server. Un utente può visualizzare la lista delle partite in attesa di un secondo giocatore e scegliere quella alla quale partecipare. Inoltre ha la possibilità di creare una nuova partita, o eventualmente di rimuoverla. Infine c’è un bottone per effettuare un refresh della lista delle partite disponibili.
 
@@ -190,7 +190,7 @@ Vi si accede dopo aver inserito un nickname valido ed essersi collegati al serve
 
 Questa schermata realizza il requisito funzionale *F5*. 
 
-![Game Init](tree/master/images/gameboard.png)
+![Game Board](http://github.com/vdenotaris/Java-RMI-Tic-Tac-Toe/blob/master/images/gameboard.png)
 
 Consente ad un utente di giocare una partita. Attraverso un meccanismo random verrà deciso quale utente muoverà per primo, se l’utente che ha creato la partita (ovvero con il simbolo X) oppure chi ha fatto “join” sulla partita (ovvero quello con il simbolo O). La status bar presenta sulla destra due indicatori: verde dà il via libera alla mossa, rosso indica che è il turno dell’avversario o la partita è terminata. Sulla sinistra invece si presenta un messaggio testuale che consente di capire qual è lo stato della partita. 
 
