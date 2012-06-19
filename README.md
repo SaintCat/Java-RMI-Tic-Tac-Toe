@@ -62,86 +62,85 @@ Le funzioni saranno presentate utilizzando il seguente schema:
 
 * **Input:** nickname del giocatore;
 
-**Output:** sarà visualizzata la game room o un messaggio d'errore;
+* **Output:** sarà visualizzata la game room o un messaggio d'errore;
 
-**Precondizioni:** nessuna;
+* **Precondizioni:** nessuna;
 
-**Postcondizioni:** il giocatore sarà regolarmente registrato nel sistema col proprio nickname;
+* **Postcondizioni:** il giocatore sarà regolarmente registrato nel sistema col proprio nickname;
 
-**Condizioni d'errore:** è già presente un giocatore con lo stesso nickname; non si riesce a raggiungere il server.
+* **Condizioni d'errore:** è già presente un giocatore con lo stesso nickname; non si riesce a raggiungere il server.
 
 #### 3.1.2 Creazione di una nuova partita
 
-**Identificativo:** *F2*;
+* **Identificativo:** *F2*;
 
-**Funzione:** crea una nuova partita;
+* **Funzione:** crea una nuova partita;
 
-**Descrizione:** consente ad un giocatore di creare una nuova partita;
+* **Descrizione:** consente ad un giocatore di creare una nuova partita;
 
-**Input:** nessuno;
+* **Input:** nessuno;
 
-**Output:** la game room sarà aggiornata per contenere la partita appena creata;
+* **Output:** la game room sarà aggiornata per contenere la partita appena creata;
 
+* **Precondizioni:** il giocatore deve essere connesso al server con un nickname valido; un giocatore non può aggiungere una partita se ne ha creata un’altra in precedenza ed essa è ancora in attesa d’essere giocata;
 
-**Precondizioni:** il giocatore deve essere connesso al server con un nickname valido; un giocatore non può aggiungere una partita se ne ha creata un’altra in precedenza ed essa è ancora in attesa d’essere giocata;
+* **Postcondizioni:** la nuova partita sarà registrata sul server;
 
-**Postcondizioni:** la nuova partita sarà registrata sul server;
-
-**Condizioni d'errore:** non si riesce a raggiungere il server.
+* **Condizioni d'errore:** non si riesce a raggiungere il server.
 
 #### 3.1.3 Iscrizione ad una partita
 
 **Identificativo:** *F3*;
 
-**Funzione:** iscrizione ad una partita;
+* **Funzione:** iscrizione ad una partita;
 
-**Descrizione:** consente ad un giocatore di prendere parte ad una partita;
+* **Descrizione:** consente ad un giocatore di prendere parte ad una partita;
 
-**Input:** la partita alla quale si vuole prendere parte;
+* **Input:** la partita alla quale si vuole prendere parte;
 
-**Output:** sarà visualizzata la griglia per giocare la partita;
+* **Output:** sarà visualizzata la griglia per giocare la partita;
 
-**Precondizioni:** il giocatore deve essere connesso al server con un nickname valido; deve esserci necessariamente almeno una partita disponibile ed essa;
+* **Precondizioni:** il giocatore deve essere connesso al server con un nickname valido; deve esserci necessariamente almeno una partita disponibile ed essa;
 
-**Postcondizioni:** deve essere stata creata da un altro giocatore La partita non sarà più disponibile nella game room;
+* **Postcondizioni:** deve essere stata creata da un altro giocatore La partita non sarà più disponibile nella game room;
 
-**Condizioni d'errore:** non si riesce a raggiungere il server.
+* **Condizioni d'errore:** non si riesce a raggiungere il server.
 
 #### 3.1.4 Cancellazione di una partita
 
-**Identificativo:** *F4*;
+* **Identificativo:** *F4*;
 
-**Funzione:** cancellazione di una partita;
+* **Funzione:** cancellazione di una partita;
 
-**Descrizione:** consente ad un giocatore di cancellare una partita;
+* **Descrizione:** consente ad un giocatore di cancellare una partita;
 
-**Input:** la partita che si vuole eliminare;
+* **Input:** la partita che si vuole eliminare;
 
-**Output:** sarà aggiornata la game room;
+* **Output:** sarà aggiornata la game room;
 
-**Precondizioni:** il giocatore deve essere connesso al server con un nickname valido; la partita che si vuole eliminare deve essere stata creata dal giocatore che desidera eliminarla;
+* **Precondizioni:** il giocatore deve essere connesso al server con un nickname valido; la partita che si vuole eliminare deve essere stata creata dal giocatore che desidera eliminarla;
 
-**Postcondizioni:** la partita viene cancellata dal server;
+* **Postcondizioni:** la partita viene cancellata dal server;
 
-**Condizioni d'errore:** non si riesce a raggiungere il server.
+* **Condizioni d'errore:** non si riesce a raggiungere il server.
 
 #### 3.1.5 Giocare una partita
 
-**Identificativo:** *F5*;   
+* **Identificativo:** *F5*;   
  
-**Funzione:** giocare una partita;
+* **Funzione:** giocare una partita;
 
-**Descrizione:** consente ad un giocatore di giocare una partita
+* **Descrizione:** consente ad un giocatore di giocare una partita
 
-**Input:** nessuno;
+* **Input:** nessuno;
 
-**Output:** l’esito della partita;
+* **Output:** l’esito della partita;
 
-**Precondizioni:** il giocatore deve essere connesso al server con un nickname valido; La partita che si vuole giocare deve avere due giocatori iscritti
+* **Precondizioni:** il giocatore deve essere connesso al server con un nickname valido; La partita che si vuole giocare deve avere due giocatori iscritti
 
-**Postcondizioni:** la partita viene cancellata dal server;
+* **Postcondizioni:** la partita viene cancellata dal server;
 
-**Condizioni d'errore:** non si riesce a raggiungere il server; uno dei due giocatori si disconnette (la partita è cancellata dal server).
+* **Condizioni d'errore:** non si riesce a raggiungere il server; uno dei due giocatori si disconnette (la partita è cancellata dal server).
 
 ## 4. Scelte progettuali
 Di seguito s’illustreranno le scelte progettuali. Si farà ampio uso di diagrammi UML per mostrare in maniera più chiara le relazioni fra le classi. Per le descrizioni esaustive dei metodi, si rimanda alla documentazione Javadoc allegata al progetto.
