@@ -2,7 +2,7 @@ Java-RMI-Tic-Tac-Toe
 ====================
 Implementazione Java del gioco Tic Tac Toe (tris) mediante Remote Method Invocation.
 
-*Autori: Gennato Capo, Mirko Conte, Vincenzo De Notaris, Roberto Pacilio*
+*Autori: Gennaro Capo, Mirko Conte, Vincenzo De Notaris, Roberto Pacilio*
 
 *Versione: 1.0 del 10 Maggio 2012.*
 
