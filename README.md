@@ -90,7 +90,7 @@ Le funzioni saranno presentate utilizzando il seguente schema:
 
 #### 3.1.3 Iscrizione ad una partita
 
-**Identificativo:** *F3*;
+* **Identificativo:** *F3*;
 
 * **Funzione:** iscrizione ad una partita;
 
