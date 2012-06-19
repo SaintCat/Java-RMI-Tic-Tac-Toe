@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1017,721" id="api" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D313020546963546163546F65">
+  <children xsi:type="editmodel:EnumerationEditModel" name="Event" location="405,45" size="123,183" id="api/Event">
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,144">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="YOU_LOSE" id="api/Event#YOU_LOSE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="YOU_WIN" id="api/Event#YOU_WIN%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="YOUR_TURN" id="api/Event#YOUR_TURN%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="FOE_DISCONNECTED" id="api/Event#FOE_DISCONNECTED%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="FOE_MOVED" id="api/Event#FOE_MOVED%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="MATCH_STARTED" id="api/Event#MATCH_STARTED%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="FOE_TURN" id="api/Event#FOE_TURN%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="DRAW" id="api/Event#DRAW%"/>
+    </children>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="libraryFilter=;ModelFrozen=true;ComputedContent=true;displayOptions=1;open=api/Event,api/TicTacToeServer,api/GameJoiningException,api/Game,api/Player;Product=eDepend;link=api/TicTacToeServer-Soyatec::Import->api/GameJoiningException,api/Player-Soyatec::Import->api/Event,api/Game-Soyatec::Import->api/Player,api/Player-Soyatec::Import->api/Game,api/TicTacToeServer-Soyatec::Import->api/Player;dependencyFilter=Standard::Derive,Soyatec::Implement,Soyatec::Access,Soyatec::Import,;wireOptions=4"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showDependencyStereotype="true" showEnumerationStereotype="false" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1002,876" id="server" metadata="uml2-1.0" initialized="true" scrolledY="-155" tag="10" key="32303037303533312D313020546963546163546F65">
+  <children xsi:type="editmodel:ClassEditModel" name="StartServer" location="270,-150" size="129,67" id="server/StartServer" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="server/StartServer#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="libraryFilter=;ModelFrozen=true;ComputedContent=true;displayOptions=1;open=server/TicTacToeServerImpl$PlayerMonitor,server/GameImpl$PlayerNumber,server/GameImpl,server/TicTacToeServerImpl;Product=eDepend;link=server/GameImpl-Soyatec::Import->server/GameImpl$PlayerNumber,server/TicTacToeServerImpl-Standard::Instantiate->server/GameImpl,server/GameImpl-Soyatec::Import->server/GameImpl$PlayerNumber,server/TicTacToeServerImpl-Soyatec::Import->server/GameImpl,server/GameImpl-Soyatec::Access->server/GameImpl$PlayerNumber,server/GameImpl-Standard::Call->server/GameImpl$PlayerNumber,server/TicTacToeServerImpl-Standard::Instantiate->server/TicTacToeServerImpl$PlayerMonitor,server/TicTacToeServerImpl-Standard::Call->server/GameImpl;dependencyFilter=Standard::Derive,Soyatec::Implement,Standard::Instantiate,Standard::Create,Standard::Call,Standard::Send,Soyatec::Access,Soyatec::Import,;wireOptions=4"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showDependencyStereotype="true" showEnumerationStereotype="false" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

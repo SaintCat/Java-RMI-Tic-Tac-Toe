@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1017,721" id="client" metadata="uml2-1.0" initialized="true" scrolledY="49" tag="10" key="32303037303533312D313020546963546163546F65">
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.0" name="Subject" location="587,270" size="80,29" id="client/Subject" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="client/Subject-Soyatec::Import->client/Watcher" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="42,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.3 //@children.5/@sourceConnections.1" name="RemoteException" location="76,117" size="131,39" id="java.rmi/RemoteException" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TicTacToeClient" location="300,122" size="219,643" id="client/TicTacToeClient" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="iP_SERVER" id="client/TicTacToeClient#iP_SERVER"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="g" id="client/TicTacToeClient#g"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="p" id="client/TicTacToeClient#p"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="grid" id="client/TicTacToeClient#grid"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wrs" id="client/TicTacToeClient#wrs"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="state" id="client/TicTacToeClient#state"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="server" id="client/TicTacToeClient#server"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="creator" id="client/TicTacToeClient#creator"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="idGameCreated" id="client/TicTacToeClient#idGameCreated"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="idGameJoined" id="client/TicTacToeClient#idGameJoined"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="196,414">
+      <children xsi:type="editmodel:MethodEditModel" name="TicTacToeClient" id="client/TicTacToeClient#TicTacToeClient()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMove" id="client/TicTacToeClient#sendMove(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="resetGrid" id="client/TicTacToeClient#resetGrid()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receiveMove" id="client/TicTacToeClient#receiveMove()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createGame" id="client/TicTacToeClient#createGame(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="joinGame" id="client/TicTacToeClient#joinGame(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="registerPlayer" id="client/TicTacToeClient#registerPlayer(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deregisterPlayer" id="client/TicTacToeClient#deregisterPlayer(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="receiveList" id="client/TicTacToeClient#receiveList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="removeGame" id="client/TicTacToeClient#removeGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGame" id="client/TicTacToeClient#getGame()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setGame" id="client/TicTacToeClient#setGame(Lapi.Game;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPlayer" id="client/TicTacToeClient#getPlayer()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPlayer" id="client/TicTacToeClient#setPlayer(Lclient.PlayerImpl;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getGrid" id="client/TicTacToeClient#getGrid()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getState" id="client/TicTacToeClient#getState()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isCreator" id="client/TicTacToeClient#isCreator()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIdGameCreated" id="client/TicTacToeClient#getIdGameCreated()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setIdGameCreated" id="client/TicTacToeClient#setIdGameCreated(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="update" id="client/TicTacToeClient#update()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="client/TicTacToeClient#add(Lclient.Watcher;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="client/TicTacToeClient#remove(Lclient.Watcher;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendNotification" id="client/TicTacToeClient#sendNotification()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="client/TicTacToeClient-Soyatec::Implement->client/Subject" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="219,162" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,14"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="client/TicTacToeClient-Soyatec::Implement->client/Watcher*client/TicTacToeClient-Standard::Call->client/Watcher*client/TicTacToeClient-Soyatec::Import->client/Watcher" source="//@children.2" target="//@children.3" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement, Import, Call»" size="101,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="219,84" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,14"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="client/TicTacToeClient-Standard::Send->api/GameJoiningException*client/TicTacToeClient-Soyatec::Import->api/GameJoiningException" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Send»" size="59,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="219,19" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,19"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="client/TicTacToeClient-Standard::Send->java.rmi/RemoteException*client/TicTacToeClient-Standard::Call->java.rmi/RemoteException*client/TicTacToeClient-Soyatec::Import->java.rmi/RemoteException" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Send»" size="78,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,16" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,21"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="client/TicTacToeClient-Standard::Call->api/TicTacToeServer*client/TicTacToeClient-Soyatec::Import->api/TicTacToeServer" source="//@children.2" target="//@children.5" targetEnd="//@children.2/@sourceConnections.4/@children.2" label="//@children.2/@sourceConnections.4/@children.0" sourceEnd="//@children.2/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,84" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,19"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.0/@sourceConnections.0" name="Watcher" location="585,192" size="84,29" id="client/Watcher" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2 //@children.5/@sourceConnections.0" name="GameJoiningException" location="570,122" size="158,39" id="api/GameJoiningException" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.4" name="TicTacToeServer" location="78,187" size="128,39" id="api/TicTacToeServer" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="api/TicTacToeServer-Standard::Send->api/GameJoiningException*api/TicTacToeServer-Soyatec::Import->api/GameJoiningException" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Send»" size="59,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,11" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="api/TicTacToeServer-Standard::Send->java.rmi/RemoteException*api/TicTacToeServer-Soyatec::Import->java.rmi/RemoteException" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Send»" size="59,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,39"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="libraryFilter=;ModelFrozen=true;ComputedContent=true;displayOptions=1;open=client/Subject,client/TicTacToeClient,client/PlayerImpl,client/Watcher;Product=eDepend;link=client/PlayerImpl-Soyatec::Implement->client/Subject,client/TicTacToeClient-Soyatec::Import->client/PlayerImpl,client/PlayerImpl-Soyatec::Import->client/Watcher,client/TicTacToeClient-Soyatec::Import->client/Watcher,client/TicTacToeClient-Soyatec::Implement->client/Subject,client/TicTacToeClient-Soyatec::Implement->client/Watcher,client/Subject-Soyatec::Import->client/Watcher;dependencyFilter=Standard::Derive,Soyatec::Implement,Soyatec::Import,;wireOptions=4"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showDependencyStereotype="true" showEnumerationStereotype="false" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>
