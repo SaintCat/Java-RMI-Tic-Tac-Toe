@@ -54,13 +54,13 @@ Le funzioni saranno presentate utilizzando il seguente schema:
 
 #### 3.1.1 Connessione al server
 
-**Identificativo:** *F1*;
+* **Identificativo:** *F1*;
 
-**Funzione:** connette un giocatore al server;
+* **Funzione:** connette un giocatore al server;
 
-**Descrizione:** connette un giocatore al server dopo che ha inserito il proprio nickname;
+* **Descrizione:** connette un giocatore al server dopo che ha inserito il proprio nickname;
 
-**Input:** nickname del giocatore;
+* **Input:** nickname del giocatore;
 
 **Output:** sarà visualizzata la game room o un messaggio d'errore;
 
